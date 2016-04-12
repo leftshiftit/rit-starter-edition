@@ -47,7 +47,7 @@ $ docker run --name <container-name> -e DISPLAY -v "<path-to-local-projects>:/ho
 If you want to run virtual services from your RIT container then you will need to map the ports you need. If you are running a virtual service inside your container on `localhost:8080` and want to be able to connect from outside the container, you need to do the following:
 
 ```console
-$ docker run --name <container-name> -e DISPLAY -p <host-port>:8080 -v "<path-to-local-projects>:/home/rit/projects" -v "/tmp/.X11-unix:/tmp/.X11-unix:ro leftshiftit/rit-starter-edition:<image-tag>
+$ docker run --name <container-name> -e DISPLAY -p <host-port>:8080 -v "<path-to-local-projects>:/home/rit/projects" -v "/tmp/.X11-unix:/tmp/.X11-unix:ro" leftshiftit/rit-starter-edition:<image-tag>
 ```
 
 ... where `<host-port>` is the port you want to be able to connect to on the host to hit your virtual service (e.g. `9000`). Once your virtual service is running you should be able to hit it from the host by exercising http://<host-name>:<host-port>.

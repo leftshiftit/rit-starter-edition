@@ -2,9 +2,7 @@
 
 -	[`9.0`, `latest` (*9.0/Dockerfile*)](https://github.com/leftshiftit/rit-starter-edition/blob/master/Dockerfile)
 
-[![](https://badge.imagelayers.io/leftshiftit/rit-starter-edition:latest.svg)](https://imagelayers.io/?images=leftshiftit/rit-starter-edition:latest)
-
-(note: imagelayers.io doesn't currently support the new Docker storage model. Link above provided for layer tracability, but image is obviously not 0 bytes :p)
+[![](https://images.microbadger.com/badges/image/leftshiftit/rit-starter-edition.svg)](https://microbadger.com/images/leftshiftit/rit-starter-edition "Get your own image badge on microbadger.com")
 
 # What is Rational Integration Tester (SE)?
 
